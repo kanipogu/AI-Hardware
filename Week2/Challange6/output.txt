@@ -1,0 +1,15 @@
+Training for NAND...
+
+Testing NAND Perceptron:
+Input: [0 0] -> Output: 0.9999998171409948
+Input: [0 1] -> Output: 0.9949530477847865
+Input: [1 0] -> Output: 0.9949498791456319
+Input: [1 1] -> Output: 0.007052055784916817
+
+Training for XOR...
+
+Testing XOR Perceptron:
+Input: [0 0] -> Output: 0.5128176319164418
+Input: [0 1] -> Output: 0.5
+Input: [1 0] -> Output: 0.48718236808355825
+Input: [1 1] -> Output: 0.4743815717463977
