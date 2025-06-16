@@ -1,0 +1,9 @@
+TOPLEVEL_LANG = verilog
+VERILOG_SOURCES = $(shell pwd)/threshold.v
+TOPLEVEL = threshold
+MODULE = test_threshold
+SIM = icarus
+WAVES = 0
+
+include $(shell cocotb-config --makefiles)/Makefile.sim
+

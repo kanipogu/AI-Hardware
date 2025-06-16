@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1749965366" />
+    <testcase classname="test_threshold" file="/home/kanipogu/common/Downloads/hw_accel_thresholding_project/test_threshold.py" lineno="6" name="test_threshold" ratio_time="64763.16863276722" sim_time_ns="22000.001" time="0.33969926834106445" />
+  </testsuite>
+</testsuites>

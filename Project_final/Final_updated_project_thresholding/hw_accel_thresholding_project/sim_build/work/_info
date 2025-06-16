@@ -1,0 +1,47 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.3_1 2021.08, Aug 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/kanipogu/common/Downloads/hw_accel_thresholding_project
+T_opt
+!s110 1749965365
+Vla=cgbjF8?FJJa<HLQM2G3
+04 9 4 work threshold fast 0
+=1-5254006cf05e-684e5a34-a73f3-19db
+!s124 OEM100
+o-quiet +acc -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.3_1;73
+vthreshold
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1749965364
+!i10b 1
+!s100 JDV:2EQN9DF3;j0G79EDJ1
+I`UDg9m4S`H;Ke]5XBOAIY0
+S1
+R0
+w1749963466
+8threshold.v
+Fthreshold.v
+!i122 0
+L0 22 22
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2021.3_1;73
+r1
+!s85 0
+31
+!s108 1749965364.000000
+!s107 threshold.v|
+!s90 -work|work|+define+COCOTB_SIM|-sv|-timescale|1ns/1ps|-mfcu|+acc|threshold.v|
+!i113 0
+o-work work -sv -timescale 1ns/1ps -mfcu +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -work work +define+COCOTB_SIM -sv -timescale 1ns/1ps -mfcu +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

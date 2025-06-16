@@ -1,0 +1,11 @@
+# Cocotb-compatible Makefile for Icarus Verilog
+TOPLEVEL_LANG = verilog
+VERILOG_SOURCES = $(shell pwd)/threshold.v
+TOPLEVEL = threshold
+MODULE = test_threshold
+
+SIM = icarus
+
+# Path to cocotb Makefiles
+COCOTB := $(shell python -m cocotb.config --makefiles)
+include $(COCOTB)/Makefile.sim

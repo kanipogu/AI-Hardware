@@ -1,0 +1,52 @@
+ 
+****************************************
+Report : cell
+Design : threshold
+Version: Q-2019.12-SP3
+Date   : Sat Jun 14 23:19:16 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U4                        NAND2X1         osu05_stdcells  216.000000
+U5                        OAI21X1         osu05_stdcells  207.000000
+U6                        AOI21X1         osu05_stdcells  288.000000
+U7                        OAI21X1         osu05_stdcells  207.000000
+U8                        OAI21X1         osu05_stdcells  207.000000
+U9                        AOI21X1         osu05_stdcells  288.000000
+U10                       AOI21X1         osu05_stdcells  288.000000
+U11                       OAI21X1         osu05_stdcells  207.000000
+U12                       OAI21X1         osu05_stdcells  207.000000
+U13                       AOI21X1         osu05_stdcells  288.000000
+U14                       AOI21X1         osu05_stdcells  288.000000
+U15                       OAI21X1         osu05_stdcells  207.000000
+U16                       OAI21X1         osu05_stdcells  207.000000
+U17                       OAI21X1         osu05_stdcells  207.000000
+U18                       OAI21X1         osu05_stdcells  207.000000
+U19                       INVX2           osu05_stdcells  144.000000
+U20                       INVX2           osu05_stdcells  144.000000
+U21                       INVX2           osu05_stdcells  144.000000
+U22                       INVX2           osu05_stdcells  144.000000
+U23                       INVX2           osu05_stdcells  144.000000
+U24                       INVX2           osu05_stdcells  144.000000
+U25                       INVX2           osu05_stdcells  144.000000
+U26                       INVX2           osu05_stdcells  144.000000
+U27                       INVX2           osu05_stdcells  144.000000
+U28                       INVX2           osu05_stdcells  144.000000
+U29                       INVX2           osu05_stdcells  144.000000
+U30                       INVX2           osu05_stdcells  144.000000
+U31                       INVX2           osu05_stdcells  144.000000
+U32                       INVX2           osu05_stdcells  144.000000
+U33                       INVX2           osu05_stdcells  144.000000
+binary_out_reg            DFFPOSX1        osu05_stdcells  864.000000
+                                                                    n
+--------------------------------------------------------------------------------
+Total 31 cells                                            6543.000000
+1
