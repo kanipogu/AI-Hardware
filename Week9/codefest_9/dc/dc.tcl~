@@ -1,0 +1,23 @@
+set target_library osu05_stdcells.db
+   set link_library osu05_stdcells.db
+
+
+
+read_verilog threshold.v
+current_design threshold 
+link
+check_design
+#set_wire_load_model -name "10x10"
+#write your timing constraints here
+create_clock -period 3.0 [get_ports clk]
+set_clock_latency -source -max 0.7 [get_clocks clk]
+set_clock_latency -max 0.3 [get_clocks clk]
+set_clock_uncertainty -setup 0.15 [get_clocks clk]
+set_clock_transition 0.12 [get_clocks clk]
+compile
+check_timing
+report_clock
+report_power > pwr.rpt
+report_cell > cell.rpt
+report_area > area.rpt
+report_timing > timing.rpt

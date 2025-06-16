@@ -1,0 +1,29 @@
+import numpy as np
+import subprocess
+import os
+import time
+
+def simulate_threshold_hw(image_np):
+    os.makedirs("verilog", exist_ok=True)
+    np.savetxt("verilog/input_pixels.txt", image_np.flatten(), fmt="%d")
+
+    print("[INFO] Invoking hardware accelerator via Cocotb + QuestaSim...")
+    start_hw = time.time()
+
+    try:
+        subprocess.run(["make", "SIM=questa", "sim"], check=True)
+    except FileNotFoundError:
+        raise RuntimeError("make command not found. Use Git Bash or MSYS2.")
+    except subprocess.CalledProcessError:
+        raise RuntimeError("Cocotb + Vivado simulation failed.")
+
+    end_hw = time.time()
+    print("[HW] Thresholding complete in %.6f seconds" % (end_hw - start_hw))
+
+    output = np.loadtxt("verilog/verilog_output.txt", dtype=np.uint8)
+
+	if output.size != image_np.size:
+    	raise ValueError(f"[ERROR] Output size mismatch: expected {image_np.size}, got {output.size}")
+    
+	output = output.reshape(image_np.shape)
+	return output

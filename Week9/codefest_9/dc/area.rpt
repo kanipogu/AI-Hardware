@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : threshold
+Version: Q-2019.12-SP3
+Date   : Sat Jun 14 23:19:16 2025
+****************************************
+
+Library(s) Used:
+
+    osu05_stdcells (File: /home/kanipogu/common/Downloads/hw_accel_thresholding_project/dc/osu05_stdcells.db)
+
+Number of ports:                           18
+Number of nets:                            48
+Number of cells:                           31
+Number of combinational cells:             30
+Number of sequential cells:                 1
+Number of macros/black boxes:               0
+Number of buf/inv:                         15
+Number of references:                       5
+
+Combinational area:               5679.000000
+Buf/Inv area:                     2160.000000
+Noncombinational area:             864.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  6543.000000
+Total area:                 undefined
+1
